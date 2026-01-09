@@ -69,3 +69,33 @@ electricien-demo/
 ├── index.html
 ├── styles.css
 └── README.md
+2️⃣ Cloner le projet électricien depuis GitHub
+git clone git@github.com:modjo33/electricien-demo.git
+
+3️⃣ Entrer dans le projet
+cd electricien-demo
+
+4️⃣ Vérifier que tout est là
+ls
+
+
+Tu dois voir :
+
+index.html  styles.css  README.md  images/ (si présent)
+
+▶️ Lancer le site en local
+
+Depuis la racine du projet :
+
+python3 -m http.server 5500
+
+🌍 Ouvrir dans le navigateur
+
+Local :
+
+http://localhost:5500/
+
+
+En ligne (GitHub Pages) :
+
+https://modjo33.github.io/electricien-demo/
